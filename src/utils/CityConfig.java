@@ -1,3 +1,5 @@
+package utils;
+
 public class CityConfig {
     public static long WORK_DAY_DURATION;
     public static long WORK_TIME;

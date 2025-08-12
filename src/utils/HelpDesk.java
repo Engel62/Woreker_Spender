@@ -1,3 +1,5 @@
+package utils;
+
 public class HelpDesk {
     private static HelpDesk instance;
     private int totalMoney;

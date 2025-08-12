@@ -1,3 +1,10 @@
+package factory;
+
+import entity.Bank;
+import entity.Spender;
+import entity.Worker;
+import utils.CityConfig;
+
 public class DefaultCityEntityFactory implements CityEntityFactory {
     private static int bankCounter = 1;
     private static int workerCounter = 1;

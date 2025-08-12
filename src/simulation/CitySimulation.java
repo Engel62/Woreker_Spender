@@ -1,3 +1,14 @@
+package simulation;
+
+import entity.Bank;
+import entity.Spender;
+import entity.Worker;
+import factory.CityEntityFactory;
+import factory.DefaultCityEntityFactory;
+import utils.CityConfig;
+import utils.CityMedia;
+import utils.HelpDesk;
+
 import java.util.ArrayList;
 import java.util.List;
 

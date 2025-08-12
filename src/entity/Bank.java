@@ -1,4 +1,7 @@
+package entity;
 
+import utils.AbstractClient;
+import utils.CityConfig;
 
 public class Bank extends AbstractClient {
     private final Object lock = new Object();

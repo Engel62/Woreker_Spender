@@ -1,3 +1,9 @@
+package entity;
+
+import simulation.CitySimulation;
+import utils.AbstractClient;
+import utils.RandomSelector;
+
 public class Spender extends AbstractClient {
     public Spender(String name, int initialMoney) {
         super(name, initialMoney);

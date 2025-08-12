@@ -1,3 +1,5 @@
+package entity;
+
 public interface Client {
     String getName();
     int getMoney();

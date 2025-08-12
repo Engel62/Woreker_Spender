@@ -1,4 +1,12 @@
+package utils;
+
+import entity.Bank;
+import entity.Spender;
+import entity.Worker;
+import simulation.CitySimulation;
+
 public class CityMedia implements Runnable {
+
     @Override
     public void run() {
         while (true) {

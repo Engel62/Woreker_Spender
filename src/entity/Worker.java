@@ -1,4 +1,9 @@
+package entity;
 
+import simulation.CitySimulation;
+import utils.AbstractClient;
+import utils.CityConfig;
+import utils.RandomSelector;
 
 public class Worker extends AbstractClient {
     private final Object lock = new Object();

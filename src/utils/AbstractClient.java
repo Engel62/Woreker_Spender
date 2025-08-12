@@ -1,3 +1,7 @@
+package utils;
+
+import entity.Client;
+
 public abstract class AbstractClient implements Client, Runnable {
     protected String name;
     protected int money;
